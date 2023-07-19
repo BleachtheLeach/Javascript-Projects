@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexColors {
+    text-align: center;
+}
+
+.hexColors h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changeColor 5s infinite alternate;
+}
+
+.hexColors h2 {
+    font-size: 2rem;
+    margin-top: 15%;
+}
+
+@keyframes changeColor {
+    0% {
+        color: indigo
+    }
+
+    20% {
+        color: blue
+    }
+
+    40% {
+        color: green
+    }
+
+    60% {
+        color: yellow
+    }
+
+    80% {
+        color: orange
+    }
+
+    100% {
+        color: red
+    }
+}
+
+@media(max-width:480px) {
+    .hexColors h1 {
+        font-size: 1.5;
+    }
+
+    .hexColors h2 {
+        font-size: 1.5;
+    }
+}
