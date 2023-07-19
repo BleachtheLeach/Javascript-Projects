@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+.header{
+    border: 1px solid black;
+
+    padding: 1%;
+}
+.navbar{
+    border: 1px solid white;
+
+    background-color: #333;
+    display: flex;
+}
+.navbarLeft{
+    border: 1px dashed pink;
+
+    flex: 33%;
+    padding-left: 5%;
+}
+.navbarMiddle{
+    border: 1px dashed pink;
+
+    align-items: center;
+}
+.navbarRight{
+    border: 1px dashed pink;
+
+    flex: 33%;
+}
+.row{
+    border: 1px solid red;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftSide{
+    border: 1px solid black;
+
+    
+    flex: 30%;
+    padding: 20px;
+}
+.main{
+    border: 1px solid black;
+
+    
+    flex: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer{
+    border: 1px solid black;
+
+    display: flex;
+    background-color: #333;
+}
+a.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+    a.button1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+    @media all and (max-width:30em){
+    a.button1{
+    display:block;
+    margin:0.4em auto;
+    }
+} 
+.bouncy{
+    animation:bouncy 5s infinite linear;
+    position:relative;
+}
+@keyframes bouncy {
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.9em}
+    46%{top:0em}
+    48%{top:-0.4em}
+    50%{top:0em}
+    100%{top:0em;}
+}
+body{
+    background-color: #666;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
