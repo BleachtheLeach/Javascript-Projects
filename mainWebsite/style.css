@@ -1,29 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
 * {
     box-sizing: border-box;
   }
 .header{
-    border: 1px solid black;
-
-    padding: 1%;
-}
-.navbar{
     border: 1px solid white;
 
     background-color: #333;
     display: flex;
 }
-.navbarLeft{
+.headerLeft{
     border: 1px dashed pink;
 
     flex: 33%;
     padding-left: 5%;
 }
-.navbarMiddle{
+.headerMiddle{
     border: 1px dashed pink;
 
     align-items: center;
 }
-.navbarRight{
+.headerRight{
     border: 1px dashed pink;
 
     flex: 33%;
@@ -94,5 +90,5 @@ a.button1{
 }
 body{
     background-color: #666;
+    font-family: 'Ubuntu', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
