@@ -1,0 +1,33 @@
+body{
+    background-color: #49111C;
+}
+.container{
+    border: 1px dashed #F2F4F3;
+    background-color: #0A0908;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    color: #F2F4F3;
+    font-size: 2rem;
+}
+.counter {
+    border: 5px solid #F2F4F3;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #49111C;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#count{
+    font-size: 9rem;
+}

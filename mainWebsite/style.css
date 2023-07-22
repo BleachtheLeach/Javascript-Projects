@@ -6,6 +6,7 @@
     border: 1px solid white;
 
     background-color: #333;
+    opacity: 75%;
     display: flex;
 }
 .headerLeft{
@@ -40,16 +41,37 @@
 .main{
     border: 1px solid black;
 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mainSplit{
+    border: 1px solid black;
+
     
     flex: 50%;
     background-repeat: no-repeat;
     background-position: center;
+}
+.rightSide{
+    border: 1px solid black;
+
+    
+    flex: 30%;
+    padding: 20px;
+}
+.divider{
+    border: 1px solid purple;
+
+    background-color: #333;
+    opacity: 75%;
+    display: flex;
 }
 .footer{
     border: 1px solid black;
 
     display: flex;
     background-color: #333;
+    opacity: 75%;
 }
 a.button1{
     display:inline-block;
