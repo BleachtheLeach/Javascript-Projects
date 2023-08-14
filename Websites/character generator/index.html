@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Stats</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="stats-form p-4">
+                    <div class="text-center mb-4">
+                        <h2>Character Stats</h2>
+                    </div>
+                    <div class="form-group stats">
+                        <label for="strength">Strength:</label>
+                        <input type="text" class="form-control" id="strength" readonly>
+                    </div>
+                    <div class="form-group stats">
+                        <label for="dexterity">Dexterity:</label>
+                        <input type="text" class="form-control" id="dexterity" readonly>
+                    </div>
+                    <div class="form-group stats ">
+                        <label for="constitution">Constitution:</label>
+                        <input type="text" class="form-control" id="constitution" readonly>
+                    </div>
+                    <div class="form-group stats">
+                        <label for="intelligence">Intelligence:</label>
+                        <input type="text" class="form-control" id="intelligence" readonly>
+                    </div>
+                    <div class="form-group stats">
+                        <label for="wisdom">Wisdom:</label>
+                        <input type="text" class="form-control" id="wisdom" readonly>
+                    </div>
+                    <div class="form-group stats">
+                        <label for="charisma">Charisma:</label>
+                        <input type="text" class="form-control" id="charisma" readonly>
+                    </div>
+                    <button id="rollButton" class="btn btn-primary btn-block">Roll for Stats</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="characterGen.js"></script>
+</body>
+
+</html>

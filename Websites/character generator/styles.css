@@ -1,0 +1,36 @@
+.stats-form {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stats-form h2 {
+    color: #333;
+}
+
+.stats-form label {
+    font-weight: bold;
+}
+
+.stats-form input {
+    background-color: #fff;
+}
+
+.stats-form button {
+    margin-top: 20px;
+}
+
+.container {
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats {
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+}
